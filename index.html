@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Old Stairwell 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20130313
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="google-site-verification" content="TKhkDFKyhvcrubOqVQVf7xQG4bUSzAuJlXiN4_Ts7yQ" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vienna Graph Clustering </title>
+<meta name="keywords" content="graph partitioning, multilevel algorithm, graph clustering, viem, vieclus, evolutionary algorithm, multilevel graph partitioning, open source, kahip, algorithm, software, ordering, fill-reducing ordering, nested disection, partitioning, mesh partitioning, parallel simulations, dynamic load-balancing, domain decomposition, data mining, schulz, sanders, clustering, graph clustering, label propagation, max flow, min cut" />
+<meta name="description" content="The main project page of to open source framework VieClus -- Vienna Graph Clustering" />
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css">
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<!--[if IE 6]>
+<link href="default_ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<h1><a href="#">VieClus - </a><a href="#" style="color:red">Vie</a><a href="#">nna </a> <a href="#">Graph</a> <a href="#" style="color:red">Clus</a><a href="#">tering</a> </h1>
+Sonja Biedermann, Monika Henzinger, Christian Schulz and Bernhard Schuster
+		</div>
+	</div>
+	<div id="page">
+		<div id="content">
+                
+                         
+			<h2>Overview</h2>
+Graph clustering is the problem of detecting tightly connected regions of a
+graph. Depending on the task, knowledge about the structure of the graph can
+reveal information such as voter behavior, the formation of new trends, existing
+terrorist groups and recruitment or a natural partitioning of
+data records onto pages. Further application areas
+include the study of protein interaction, gene
+expression networks, fraud detection, program optimization and the spread of
+epidemics---possible applications are plentiful, as
+almost all systems containing interacting or coexisting entities can be modeled
+as a graph. 
+
+
+<br>
+<br>
+
+
+                        VieClus - <a href="#" style="color:red">Vie</a>nna Graph <a href="#" style="color:red">Clus</a>tering -- is a memetic algorithm. It includes serveral heuristics to compute a clustering of a graph. We provide it here as easy to use open source software.
+                       A key component of our contribution are natural recombine operators that employ ensemble clusterings as well as multi-level techniques. 
+Our recombination operators use the overlay of two clusterings from the population to decide whether pairs of vertices should belong to the same cluster.
+This is combined with a local search algorithm to find further improvements and also embedded into a multi-level algorithm to find even better clusterings.
+Lastly, we combine these techniques with a scalable communication protocol, producing a system that is able to compute high-quality solutions in a short amount of time.
+In our experimental evaluation, we show that our algorithm successfully improves or reproduces all entries of the 10th DIMACS implementation~challenge under consideration in a small amount of time. In fact, for most of the small instances, we can improve the old benchmark result in less than a minute.
+
+                       
+                        <br><br>
+
+<b style="color:red">News:</b>       <br>
+<!--<b>27th June 2018:</b> We presented our paper "Memetic Graph Clustering" at SEA 2018. <br>-->
+<b> 21nd Mai 2020:</b> Switched to CMake as a build system and switched license to MIT. <br>
+<b> 2nd Mai 2018:</b> Released VieClus v1.00. <br>
+<b>20th February 2018:</b> Published ArXiv Report. Link to <a href="https://arxiv.org/abs/1802.07034">PDF</a>.<br> 
+
+
+ 
+                        <p></p>
+                        <br>
+
+			<h2>License</h2>
+The program is licenced under MIT licence. <br>
+                        If you publish results using our algorithms, <b>please acknowledge</b> our work by quoting the following paper (<a href="http://arxiv.org/pdf/1702.04164.pdf">PDF</a>):<br><br>
+                        <b>@inproceedings{BiedermannHSS18, <br>
+ &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp AUTHOR = {Biedermann, Sonja and Henzinger, Monika and Schulz, Christian and Schuster, Bernhard},<br>
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp                       TITLE = {{Memetic Graph Clustering}},<br>
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp                       BOOKTITLE = {{Proceedings of the 17th International Symposium on Experimental Algorithms (SEA'18)}},<br>
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp                       SERIES = {{LIPIcs}},<br>
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp                       PUBLISHER = {Dagstuhl},<br>
+  <!--&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp                       VOLUME = {75},<br>-->
+  <!--&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp                       PAGES = {4:1 -- 4:15},<br>-->
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp                       NOTE = {Technical Report, arXiv:1802.07034},<br>
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp                       YEAR    = {2018}<br>
+                        }</b>
+<br><br>
+
+
+The algorithms that are included for download are mainly based on the following publications: <br> <br>
+<ul>
+<li> Sonja Biedermann, Monika Henzinger, Christian Schulz and Bernhard Schuster.  Memetic Graph Clustering. Proceedings of the 17th International Symposium on Experimental Algorithms (SEA'18). 2018.  <a href="http://arxiv.org/pdf/1802.07034.pdf">Download PDF</a>.<br><br>
+
+
+
+</ul>
+                        <p></p>
+			<h2>Download</h2> 
+                        <ul>
+                                <li> Code available on GitHub <a href="https://github.com/schulzchristian/VieClus/">here</a> 
+                                <li> <a href="http://vieclus.taa.univie.ac.at/vieclusv1.00.pdf">User Guide to VieClus v1.00</a> 
+
+                        </ul>
+
+			<h2>Support</h2>
+                        <ul>
+                                <li> Write us an <a href="mailto:christian.schulz@univie.ac.at?subject=SupportRequestVieClus">email</a> if you need support!  
+                                <li>We are glad for any comments and error reports (or even bug fixes or feature requests) that you send us. 
+                                </ul>
+                                
+			<h2>Other Open Source Projects</h2>
+                        <ul>
+                                <li> <a href="http://algo2.iti.kit.edu/kahip">KaHIP</a> -- Karlsruhe High Quality Partitioning
+                                <li> <a href="http://algo2.iti.kit.edu/kahip">ParHIP</a> -- Parallel High Quality Partitioning
+                                <li> <a href="http://algo2.iti.kit.edu/kamis">KaMIS</a> -- Karlsruhe Maximum Independent Sets 
+                                <li> <a href="http://algo2.iti.kit.edu/kalp">KaLP</a> -- Karlsruhe Longest Paths 
+                                <li> <a href="http://algo2.iti.kit.edu/kadraw">KaDraw</a> -- Karlsruhe Graph Drawing 
+                                <li> <a href="http://viem.taa.univie.ac.at">VieM</a> -- Vienna Mapping and Sparse Quadratic Assignment 
+                                </ul>
+                                
+
+</a>
+
+
+
+
+	        </div>
+
+        </div>
+	<div id="footer">
+		<p>Copyright (c) 2018. Site maintained by Christian Schulz. All rights reserved. Initial release of VieClus: 23. Mai 2018. See main site for impressum. Design by <a href="http://www.freecsstemplates.org">FCT</a>.</p>
+	</div>
+</div>
+</body>
+</html>
